@@ -1,0 +1,11 @@
+{"environment":"development","level":"info","message":"Product Service started","port":3001,"service":"product-service","timestamp":"2026-09-15 12:06:27"}
+{"duration":0.007,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:06:46"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/favicon.ico","service":"product-service","timestamp":"2026-09-15 12:06:46"}
+{"duration":0.001,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/favicon.ico","service":"product-service","status":404,"timestamp":"2026-09-15 12:06:46"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:23"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:31"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:31"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:31"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:31"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:32"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:32"}
