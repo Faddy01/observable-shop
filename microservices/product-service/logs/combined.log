@@ -9,3 +9,91 @@
 {"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:31"}
 {"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:32"}
 {"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:07:32"}
+{"environment":"development","level":"info","message":"Product Service started","port":3001,"service":"product-service","timestamp":"2026-09-15 12:16:42"}
+{"duration":0.007,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:16:47"}
+{"duration":0.016,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/ready","service":"product-service","status":200,"timestamp":"2026-09-15 12:17:36"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:27:42"}
+{"environment":"development","level":"info","message":"Product Service started","port":"3001","service":"product-service","timestamp":"2026-09-15 12:33:24"}
+{"duration":0.012,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/ready","service":"product-service","status":200,"timestamp":"2026-09-15 12:34:13"}
+{"duration":0.014,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:34:20"}
+{"duration":0.009,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:34:22"}
+{"duration":0.003,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:34:27"}
+{"duration":0.005,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:34:28"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:34"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:39"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:40"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:40"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:40"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:56"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:56"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:56"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:57"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:58"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:58"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:58"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:58"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:59"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:59"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:34:59"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:00"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:01"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:01"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:01"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:01"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:35:01"}
+{"environment":"development","level":"info","message":"Product Service started","port":"3001","service":"product-service","timestamp":"2026-09-15 12:37:21"}
+{"error":"password authentication failed for user \"postgres\"","level":"error","message":"Unhandled error","method":"POST","path":"/api/products","service":"product-service","stack":"error: password authentication failed for user \"postgres\"\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.create (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:17:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:94:23","timestamp":"2026-09-15 12:37:25"}
+{"duration":0.026,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:37:25"}
+{"duration":0.003,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:37:43"}
+{"error":"password authentication failed for user \"postgres\"","level":"error","message":"Unhandled error","method":"POST","path":"/api/products","service":"product-service","stack":"error: password authentication failed for user \"postgres\"\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.create (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:17:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:94:23","timestamp":"2026-09-15 12:37:43"}
+{"duration":0.014,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:37:43"}
+{"error":"password authentication failed for user \"postgres\"","level":"error","message":"Unhandled error","method":"GET","path":"/api/products","service":"product-service","stack":"error: password authentication failed for user \"postgres\"\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.findAll (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:29:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:48:24","timestamp":"2026-09-15 12:37:43"}
+{"duration":0.005,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:37:43"}
+{"duration":0.006,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:37:43"}
+{"duration":0.01,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:44"}
+{"error":"password authentication failed for user \"postgres\"","level":"error","message":"Unhandled error","method":"POST","path":"/api/products","service":"product-service","stack":"error: password authentication failed for user \"postgres\"\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.create (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:17:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:94:23","timestamp":"2026-09-15 12:38:44"}
+{"duration":0.021,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:38:44"}
+{"error":"password authentication failed for user \"postgres\"","level":"error","message":"Unhandled error","method":"GET","path":"/api/products","service":"product-service","stack":"error: password authentication failed for user \"postgres\"\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.findAll (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:29:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:48:24","timestamp":"2026-09-15 12:38:44"}
+{"duration":0.005,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:38:44"}
+{"duration":0.009,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:44"}
+{"duration":0.005,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/ready","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:53"}
+{"duration":0.001,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:57"}
+{"duration":0.003,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:58"}
+{"duration":0.002,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"product-service","status":200,"timestamp":"2026-09-15 12:38:58"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:43:36"}
+{"environment":"development","level":"info","message":"Product Service started","port":"3001","service":"product-service","timestamp":"2026-09-15 12:43:49"}
+{"error":"permission denied for table products","level":"error","message":"Unhandled error","method":"POST","path":"/api/products","service":"product-service","stack":"error: permission denied for table products\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.create (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:17:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:94:23","timestamp":"2026-09-15 12:44:06"}
+{"duration":0.046,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:44:06"}
+{"error":"permission denied for table products","level":"error","message":"Unhandled error","method":"GET","path":"/api/products","service":"product-service","stack":"error: permission denied for table products\n    at /home/fawadulhaq/observable-shop/microservices/product-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Product.findAll (/home/fawadulhaq/observable-shop/microservices/product-service/models/product.js:29:20)\n    at async /home/fawadulhaq/observable-shop/microservices/product-service/routes/products.js:48:24","timestamp":"2026-09-15 12:44:06"}
+{"duration":0.016,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/api/products","service":"product-service","status":500,"timestamp":"2026-09-15 12:44:06"}
+{"duration":0.004,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:44:06"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:45:05"}
+{"environment":"development","level":"info","message":"Product Service started","port":"3001","service":"product-service","timestamp":"2026-09-15 12:45:17"}
+{"duration":0.038,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/","service":"product-service","status":201,"timestamp":"2026-09-15 12:45:29"}
+{"duration":0.007,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/","service":"product-service","status":200,"timestamp":"2026-09-15 12:45:29"}
+{"duration":0.055,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/995056fc-5721-45c6-8fb2-79a7d4888e35","service":"product-service","status":200,"timestamp":"2026-09-15 12:46:52"}
+{"duration":0.024,"ip":"::1","level":"info","message":"HTTP Request","method":"DELETE","path":"/995056fc-5721-45c6-8fb2-79a7d4888e35","service":"product-service","status":200,"timestamp":"2026-09-15 12:47:26"}
+{"duration":0.033,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/","service":"product-service","status":201,"timestamp":"2026-09-15 12:47:36"}
+{"duration":0.004,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/","service":"product-service","status":201,"timestamp":"2026-09-15 12:47:36"}
+{"duration":0.002,"ip":"::1","level":"info","message":"HTTP Request","method":"POST","path":"/","service":"product-service","status":201,"timestamp":"2026-09-15 12:47:36"}
+{"duration":0.013,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/995056fc-5721-45c6-8fb2-79a7d4888e35","service":"product-service","status":404,"timestamp":"2026-09-15 12:47:46"}
+{"duration":0.004,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/995056fc-5721-45c6-8fb2-79a7d4888e35","service":"product-service","status":404,"timestamp":"2026-09-15 12:47:47"}
+{"duration":0.052,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:12"}
+{"duration":0.031,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:44"}
+{"duration":0.005,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:44"}
+{"duration":0.012,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:45"}
+{"duration":0.019,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:45"}
+{"duration":0.031,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:45"}
+{"duration":0.008,"ip":"::1","level":"info","message":"HTTP Request","method":"GET","path":"/metrics","service":"product-service","status":200,"timestamp":"2026-09-15 12:48:50"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"product-service","timestamp":"2026-09-15 12:50:16"}
