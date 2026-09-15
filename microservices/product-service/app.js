@@ -4,6 +4,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const winston = require('winston');
 const prometheus = require('prom-client');
+const { swaggerUi, specs } = require('./swagger');
 
 // Import routes
 const productRoutes = require('./routes/products');
@@ -126,6 +127,13 @@ app.use((req, res, next) => {
 // ROUTES
 // ==================
 
+// Swagger documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs, {
+  swaggerOptions: {
+    url: '/api-docs/swagger.json',
+  }
+}));
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({
@@ -138,7 +146,6 @@ app.get('/health', (req, res) => {
 
 // Ready check endpoint
 app.get('/ready', (req, res) => {
-  // TODO: Add database connectivity check
   res.status(200).json({
     status: 'READY',
     service: 'product-service',
@@ -206,6 +213,8 @@ const server = app.listen(PORT, () => {
     message: 'Product Service started',
     port: PORT,
     environment: NODE_ENV,
+    docs: `http://localhost:${PORT}/api-docs`,
+    metrics: `http://localhost:${PORT}/metrics`,
     timestamp: new Date().toISOString()
   });
 });

@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    monitor: 'observable-shop'
+
+scrape_configs:
+  - job_name: 'product-service'
+    static_configs:
+      - targets: ['product-service:3001']
+    metrics_path: '/metrics'
+    scrape_interval: 5s

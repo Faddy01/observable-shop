@@ -1,0 +1,4 @@
+// Root route - redirect to API docs
+app.get('/', (req, res) => {
+  res.redirect('/api-docs');
+});
