@@ -19,38 +19,61 @@
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Overview
 
-┌─────────────────────────────────────────────────────────────┐
-│ Client Layer │
-└──────────────────────────┬──────────────────────────────────┘
-│
-┌──────────────────────────▼──────────────────────────────────┐
-│ Ingress + API Gateway (Nginx) │
-└──────────────────────────┬──────────────────────────────────┘
-│
-┌──────────────────┼──────────────────┐
-│ │ │
-┌────▼────┐ ┌─────▼─────┐ ┌──────▼───────┐
-│ Product │ │ Order │ │ Payment │
-│ Service │ │ Service │ │ Service │
-└────┬────┘ └─────┬─────┘ └──────┬───────┘
-│ │ │
-└─────────────────┼──────────────────┘
-│
-┌────────────────────┼────────────────────┐
-│ │ │
-┌────▼──────┐ ┌───────▼──────┐ ┌────────▼────┐
-│ PostgreSQL│ │ RabbitMQ │ │ Redis │
-│ Database │ │ Queue │ │ Cache │
-└───────────┘ └──────────────┘ └─────────────┘
-
-┌──────────────────────────────────────────────────────────────┐
-│ Observability Stack │
-├──────────────────────────────────────────────────────────────┤
-│ Prometheus │ Grafana │ Elasticsearch │ Kibana │ Jaeger │
-└──────────────────────────────────────────────────────────────┘
-
+```mermaid
+graph TB
+    Client["🌐 Client Layer<br/>(Web, Mobile, Dashboard)"]
+    
+    Client -->|HTTP/REST| Gateway["🚪 API Gateway<br/>Nginx/Kong<br/>Port: 3000"]
+    
+    Gateway -->|Route /products| Product["📦 Product Service<br/>Node.js/Express<br/>Port: 3001"]
+    Gateway -->|Route /orders| Order["📋 Order Service<br/>Node.js/Express<br/>Port: 3002"]
+    Gateway -->|Route /payments| Payment["💳 Payment Service<br/>Node.js/Express<br/>Port: 3003"]
+    
+    Product -->|Query| PostgresProduct["🐘 Product DB<br/>PostgreSQL"]
+    Order -->|Query| PostgresOrder["🐘 Order DB<br/>PostgreSQL"]
+    Payment -->|Query| PostgresPayment["🐘 Payment DB<br/>PostgreSQL"]
+    
+    Order -->|REST Call| Product
+    Order -->|REST Call| Payment
+    
+    Order -->|Publish Events| RabbitMQ["🐰 RabbitMQ<br/>Message Queue"]
+    
+    Product -->|Cache| Redis["🔴 Redis Cache"]
+    Order -->|Cache| Redis
+    
+    Product -->|Metrics| Prometheus["📈 Prometheus"]
+    Order -->|Metrics| Prometheus
+    Payment -->|Metrics| Prometheus
+    
+    Prometheus -->|Read| Grafana["📉 Grafana<br/>Dashboards"]
+    
+    Product -->|Logs| ELK["🔍 Elasticsearch"]
+    Order -->|Logs| ELK
+    Payment -->|Logs| ELK
+    ELK -->|Read| Kibana["📋 Kibana"]
+    
+    Product -->|Traces| Jaeger["🔗 Jaeger<br/>Tracing"]
+    Order -->|Traces| Jaeger
+    Payment -->|Traces| Jaeger
+    
+    style Client fill:#4A90E2,stroke:#2E5C8A,color:#fff
+    style Gateway fill:#E94B3C,stroke:#9B2D23,color:#fff
+    style Product fill:#50C878,stroke:#2D7A4A,color:#fff
+    style Order fill:#50C878,stroke:#2D7A4A,color:#fff
+    style Payment fill:#50C878,stroke:#2D7A4A,color:#fff
+    style PostgresProduct fill:#336791,stroke:#1F3D57,color:#fff
+    style PostgresOrder fill:#336791,stroke:#1F3D57,color:#fff
+    style PostgresPayment fill:#336791,stroke:#1F3D57,color:#fff
+    style RabbitMQ fill:#FF6600,stroke:#994400,color:#fff
+    style Redis fill:#DC382D,stroke:#8A2319,color:#fff
+    style Prometheus fill:#E6522C,stroke:#933216,color:#fff
+    style Grafana fill:#F05A28,stroke:#934316,color:#fff
+    style ELK fill:#005571,stroke:#003341,color:#fff
+    style Kibana fill:#005571,stroke:#003341,color:#fff
+    style Jaeger fill:#00897B,stroke:#005853,color:#fff
+```
 
 ---
 
